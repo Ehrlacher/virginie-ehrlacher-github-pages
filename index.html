@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Profil scientifique structuré de Virginie Ehrlacher (Galland), projets, thèses, activités éditoriales et bibliographie complète d’après la page MATHERIALS.">
+  <meta name="theme-color" content="#082f49">
+  <title>Virginie Ehrlacher (Galland) — profil scientifique</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Navigation principale">
+      <a class="brand" href="#top" aria-label="Accueil">
+        <span class="brand-mark" aria-hidden="true">VE</span>
+        <span><strong>Profil scientifique</strong><small>site GitHub Pages indépendant</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#profil">Profil</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#projets">Projets</a>
+        <a href="#publications">Publications</a>
+        <a href="#ramifications">Ramifications</a>
+        <a href="#sources">Sources</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" id="top">
+      <div class="hero-grid shell">
+        <div class="hero-copy">
+          <p class="eyebrow">Mathématiques appliquées · CERMICS · Inria MATHERIALS</p>
+          <h1 id="person-name">Virginie Ehrlacher (Galland)</h1>
+          <p class="hero-role" id="person-role"></p>
+          <p class="hero-tagline" id="person-tagline"></p>
+          <div class="hero-actions" id="hero-actions"></div>
+          <p class="snapshot" id="snapshot"></p>
+        </div>
+        <div class="portrait-card" aria-label="Monogramme décoratif">
+          <div class="portrait-orbit orbit-one"></div>
+          <div class="portrait-orbit orbit-two"></div>
+          <div class="portrait-initials">VE</div>
+          <div class="portrait-label">Mathématiques<br>pour les matériaux</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-band" aria-label="Chiffres clés">
+      <div class="shell stats-grid" id="stats-grid"></div>
+    </section>
+
+    <section class="section shell" id="profil">
+      <div class="section-heading">
+        <p class="eyebrow">Vue d’ensemble</p>
+        <h2>Profil professionnel et axes de recherche</h2>
+        <p>Une synthèse structurée de la page institutionnelle, enrichie par les pages des projets HighLEAP et COMODO.</p>
+      </div>
+      <div class="profile-grid">
+        <article class="card contact-card">
+          <h3>Affiliations et contact</h3>
+          <div id="contact-content"></div>
+        </article>
+        <article class="card award-card">
+          <h3>Distinction</h3>
+          <div id="award-content"></div>
+        </article>
+        <article class="card leadership-card">
+          <h3>Animation scientifique</h3>
+          <div id="leadership-content"></div>
+        </article>
+      </div>
+      <div class="themes-grid" id="themes-grid"></div>
+    </section>
+
+    <section class="section section-tinted" id="parcours">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Formation et responsabilités</p>
+          <h2>Thèses, édition scientifique et rayonnement</h2>
+        </div>
+        <div class="timeline" id="degrees-timeline"></div>
+        <article class="career-snapshot card">
+          <div>
+            <p class="eyebrow">Parcours professionnel</p>
+            <h3>Étapes de formation et de carrière</h3>
+            <p class="career-caveat">Les éléments ci-dessous proviennent du CV public lié par la page et sont présentés comme un instantané historique.</p>
+          </div>
+          <div class="career-list" id="career-history"></div>
+          <div class="skills-box" id="skills-snapshot"></div>
+        </article>
+        <div class="two-column">
+          <article class="card">
+            <h3>Activités éditoriales</h3>
+            <p>Rôle d’éditrice associée indiqué par la page source.</p>
+            <ul class="link-list" id="editorial-list"></ul>
+          </article>
+          <article class="card">
+            <h3>Liens institutionnels</h3>
+            <ul class="link-list" id="institution-links"></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="projets">
+      <div class="section-heading">
+        <p class="eyebrow">Programmes de recherche</p>
+        <h2>Projets actuels et passés</h2>
+      </div>
+      <div class="project-columns">
+        <div>
+          <h3 class="subheading">Projets actuels</h3>
+          <div class="project-list" id="current-projects"></div>
+        </div>
+        <div>
+          <h3 class="subheading">Projets passés</h3>
+          <div class="project-list" id="past-projects"></div>
+        </div>
+      </div>
+
+      <div class="deep-dives">
+        <article class="project-deep-dive highleap" id="highleap-card"></article>
+        <article class="project-deep-dive comodo" id="comodo-card"></article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="publications">
+      <div class="shell">
+        <div class="section-heading inverse">
+          <p class="eyebrow">Bibliographie complète</p>
+          <h2>Prépublications, articles et actes</h2>
+          <p>Recherche plein texte, filtrage par type et par année. Les liens ouvrent les dépôts ou éditeurs indiqués par la page source.</p>
+        </div>
+        <div class="filters" aria-label="Filtres bibliographiques">
+          <label>
+            <span>Rechercher</span>
+            <input id="search-input" type="search" placeholder="Auteur, titre, revue, thème…">
+          </label>
+          <label>
+            <span>Type</span>
+            <select id="type-filter">
+              <option value="all">Tous</option>
+              <option value="preprint">Prépublications</option>
+              <option value="publication">Articles</option>
+              <option value="proceeding">Actes</option>
+            </select>
+          </label>
+          <label>
+            <span>Année</span>
+            <select id="year-filter"><option value="all">Toutes</option></select>
+          </label>
+          <button id="reset-filters" type="button">Réinitialiser</button>
+        </div>
+        <div class="results-summary" id="results-summary" aria-live="polite"></div>
+        <div class="publication-list" id="publication-list"></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="ramifications">
+      <div class="section-heading">
+        <p class="eyebrow">Carte des relations</p>
+        <h2>Ramifications de la page source</h2>
+        <p>Cette carte relie la personne, les institutions, diplômes, projets, responsabilités, thèmes et productions scientifiques.</p>
+      </div>
+      <div class="graph-toolbar">
+        <button class="graph-filter active" data-graph-filter="all" type="button">Tout</button>
+        <button class="graph-filter" data-graph-filter="institution" type="button">Institutions</button>
+        <button class="graph-filter" data-graph-filter="project" type="button">Projets</button>
+        <button class="graph-filter" data-graph-filter="theme" type="button">Thèmes</button>
+        <button class="graph-filter" data-graph-filter="output" type="button">Productions</button>
+      </div>
+      <div class="graph-wrap" tabindex="0" aria-label="Carte interactive défilable">
+        <svg id="relationship-graph" viewBox="0 0 1600 980" role="img" aria-labelledby="graph-title graph-desc">
+          <title id="graph-title">Carte des ramifications du profil scientifique</title>
+          <desc id="graph-desc">Réseau reliant Virginie Ehrlacher à ses institutions, projets, thèmes et productions.</desc>
+        </svg>
+      </div>
+      <div class="tree-panel">
+        <h3>Arborescence détaillée</h3>
+        <div id="relation-tree"></div>
+      </div>
+    </section>
+
+    <section class="section section-tinted" id="sources">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Traçabilité</p>
+          <h2>Sources, limites et réutilisation</h2>
+        </div>
+        <div class="source-grid">
+          <article class="card">
+            <h3>Source principale</h3>
+            <p>La page de profil MATHERIALS sert de référence pour les affiliations, coordonnées professionnelles, diplômes, responsabilités, projets et bibliographie.</p>
+            <p><a class="text-link" id="main-source-link" href="#">Ouvrir la page source</a></p>
+          </article>
+          <article class="card">
+            <h3>Méthode</h3>
+            <p id="method-note"></p>
+          </article>
+          <article class="card">
+            <h3>Vie privée</h3>
+            <p id="privacy-note"></p>
+          </article>
+          <article class="card">
+            <h3>Statut du site</h3>
+            <p>Ce site est une reproduction éditoriale indépendante, non officielle, conçue pour GitHub Pages. Les marques, logos et contenus des institutions restent la propriété de leurs titulaires.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><strong>Profil scientifique — Virginie Ehrlacher (Galland)</strong><p>Site statique sans suivi, sans cookies et sans dépendance externe.</p></div>
+      <div><a href="#top">Retour en haut</a><a id="footer-source" href="#">Page MATHERIALS</a></div>
+    </div>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
